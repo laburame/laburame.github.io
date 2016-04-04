@@ -1,10 +1,27 @@
 ---
 layout: post
-title: You're up and running!
+title: "Despegando!"
+published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![Laburame Header]({{site.baseurl}}/blog/_posts/laburamemedioum.jpg)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+### Ya estamos por Lanzar.
+
+Si sos estudiante o egresado de:
+
+1. Economía
+2. Administración de Empresas
+3. Ingeniería Industrial
+4. Marketing/Comercialización
+5. Contador Público
+
+Laburame te esta buscando. Anotate en nuestra web para ser de los primeros elegidos y compartilo con tus amigos.
+
+Estamos lanzando en solo 5 carreras para poder garantizar que encuentres trabajo rápido, próximamente vamos a lanzar en otras.
+
+Anotate y prepara tu celular. Ya vamos a estar ahí con las mejores empresas de Argentina.
+
+**Laburame.** <br/>
+[www.labura.me](http://www.labura.me "Laburame Web")
