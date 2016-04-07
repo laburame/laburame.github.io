@@ -571,6 +571,11 @@ nav ul.sub-menu > li:last-child > a {
     background-repeat: no-repeat;
 }
 
+div.iphone {
+    z-index: 1;
+    margin-right: 5%;
+    position: relative;
+}
 div.intro-item {
   background: rgb(4,217,178); /* Old browsers */
   background: -moz-linear-gradient(-45deg,  rgba(4,217,178,1) 0%, rgba(4,157,217,1) 99%); /* FF3.6-15 */
