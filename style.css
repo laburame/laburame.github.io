@@ -1657,7 +1657,7 @@ section {
 }
 
 section.greyish {
-    background-color: #f5f5f5;
+    background-color: #04C4D9;
 }
 
 .section-title {
@@ -2738,14 +2738,14 @@ input.button.transparent.aqua:hover {
 
 .button.transparent.blue,
 input.transparent.button.blue {
-    border: 2px solid rgba(96,158,234,1);
-    color: rgba(96,158,234,1) !important;
+    border: 2px solid #04C4D9;
+    color: #04C4D9 !important;
 }
 
 .button.transparent.blue:hover,
 input.button.transparent.blue:hover {
-    border: 2px solid rgba(96,158,234,1);
-    background-color: rgba(96,158,234,1);
+    border: 2px solid #04C4D9;
+    background-color: #04C4D9;
     color: #fff !important;
 }
 
@@ -2784,8 +2784,8 @@ input.transparent.button.white {
 .button.transparent.white:hover,
 input.button.transparent.white:hover {
     border: 2px solid rgba(255,255,255,1);
-    background-color: #37474F;
-    color: #545766 !important;
+    background-color: #04C4D9;
+    color: #FFF !important;
 }
 
 .button.transparent.grey,
