@@ -1657,7 +1657,7 @@ section {
 }
 
 section.greyish {
-    background-color: #04C4D9;
+    background-color: #FFF;
 }
 
 .section-title {
@@ -1703,7 +1703,6 @@ section.greyish {
     margin-left: 1em;
     margin-bottom: 0;
 }
-
 
 /*----------------------------------------------------------------
     Featured columns
@@ -2738,15 +2737,15 @@ input.button.transparent.aqua:hover {
 
 .button.transparent.blue,
 input.transparent.button.blue {
-    border: 2px solid #04C4D9;
-    color: #04C4D9 !important;
+    border: 2px solid #FFF;
+    color: #FFF !important;
 }
 
 .button.transparent.blue:hover,
 input.button.transparent.blue:hover {
-    border: 2px solid #04C4D9;
-    background-color: #04C4D9;
-    color: #fff !important;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    color: #04C4D9 !important;
 }
 
 .button.transparent.purple,
