@@ -2912,8 +2912,12 @@ i.fa.dark-grey {
 footer {
     position: relative;
     z-index: 10;
-    background-color: #363842;
-    color: #545766;
+    background-color: #545766;
+    color: #9E9EA0 ;
+}
+
+#foot{
+  color: #9E9EA0
 }
 
 footer h1,
@@ -2935,8 +2939,8 @@ footer a:hover {
 }
 
 footer .meta-social ul li a {
-    border-color: #545766;
-    color: #545766;
+    border-color: #999;
+    color: #999;
 }
 
 footer .meta-social ul li a:hover {
