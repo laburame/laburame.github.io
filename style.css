@@ -83,6 +83,7 @@ a {
 #google {
   max-height: 250px;
   max-width: 300px;
+  background: url("http://www.google.com") no-repeat;
 }
 
 #apple {
@@ -3101,6 +3102,7 @@ footer .row-content.buffer {
 
 .icon-users:before {
     content: "\e017";
+    color: white;
 }
 
 .icon-vertical-tag:before {
@@ -3189,10 +3191,12 @@ footer .row-content.buffer {
 
 .icon-comment-two:before {
     content: "\e02d";
+    color: white;
 }
 
 .icon-comment-one:before {
     content: "\e02e";
+    color: white;
 }
 
 .icon-clock:before {
@@ -3325,6 +3329,7 @@ footer .row-content.buffer {
 
 .icon-target:before {
     content: "\e04f";
+    color: white;
 }
 
 .icon-tshirt:before {
@@ -3421,6 +3426,7 @@ footer .row-content.buffer {
 
 .icon-megaphone:before {
     content: "\e067";
+    color: white;
 }
 
 .icon-music:before {
@@ -3437,6 +3443,7 @@ footer .row-content.buffer {
 
 .icon-smartphone:before {
     content: "\e06b";
+    color: white;
 }
 
 .icon-select:before {
