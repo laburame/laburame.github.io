@@ -192,6 +192,15 @@ h6 {
  /* This overwrites a layers.css rule */;
 }
 
+div.pricing {
+    position: relative;
+    padding: 1.375rem 0 1.25rem;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 3px 1px rgba(0,0,0,.1);
+}
+
 
 /*----------------------------------------------------------------
     Loaders
