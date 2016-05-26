@@ -80,6 +80,8 @@ a {
     text-decoration: underline;
 }
 
+
+
 #google {
   max-height: 250px;
   max-width: 300px;
@@ -158,6 +160,21 @@ section {
     margin-right: 0% !important;
 }
 
+#precio {
+  color:#FFF;
+  text-align:center;
+  text-decoration: none;
+}
+ul,li {
+  padding-left:0;
+  list-style-position:inside;
+  color: #fff;
+}
+
+a.linkfalso {
+  text-decoration: none;
+}
+
 /*----------------------------------------------------------------
     Perfect Fourth (http://type-scale.com)
 ----------------------------------------------------------------*/
@@ -172,10 +189,12 @@ h2 {
 
 h3 {
     font-size: 1.333em;
+    color: #fff;
 }
 
 h4 {
     font-size: 1em;
+    color: #fff;
 }
 
 h5 {
