@@ -80,6 +80,15 @@ a {
     text-decoration: underline;
 }
 
+a.button2 {
+    color: #222;
+    text-decoration: underline;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    text-align: center;
+}
 
 
 #google {
@@ -605,9 +614,9 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 div.verde{
-  border: 1px #049DD9 solid;
+  border: 1px #04C4D9 solid;
   border-radius: 10px;
-  background: #049DD9;
+  background: #04C4D9;
   text-shadow: 0 3px 1px rgba(0,0,0,.1);
   margin-left: 28%;
   margin-right: 28%;
