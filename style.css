@@ -165,14 +165,32 @@ section {
   text-align:center;
   text-decoration: none;
 }
+
+#numeroprecio {
+  font-size: 5em;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 3%;
+  text-shadow: 0 3px 1px rgba(0,0,0,.1);
+}
 ul,li {
   padding-left:0;
   list-style-position:inside;
+  color: #fff;}
+
+#terms {
+  text-align: center;
   color: #fff;
+  padding-top: 10%;
 }
 
 a.linkfalso {
   text-decoration: none;
+}
+
+h1.works {
+  text-align: center;
 }
 
 /*----------------------------------------------------------------
@@ -584,6 +602,25 @@ nav ul.sub-menu > li:last-child > a {
 
 #menu-toggle:hover {
     color: #FD685B;
+}
+
+div.verde{
+  border: 1px #049DD9 solid;
+  border-radius: 10px;
+  background: #049DD9;
+  text-shadow: 0 3px 1px rgba(0,0,0,.1);
+  margin-left: 28%;
+  margin-right: 28%;
+  display: inline-block;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+@media handheld, only screen and (max-width:48em) {
+  div.verde {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
@@ -3215,6 +3252,7 @@ footer .row-content.buffer {
 
 .icon-comments:before {
     content: "\e02c";
+    color: #fff;
 }
 
 .icon-comment-two:before {
