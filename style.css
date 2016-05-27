@@ -1360,6 +1360,11 @@ div.intro-item {
     }
 }
 
+#magia {
+  text-align: center;
+  margin: 0 auto;
+  padding-top:3%;
+}
 
 /*----------------------------------------------------------------
     Masonry
@@ -1839,7 +1844,7 @@ section.greyish {
 }
 
 .text-s {
-    font-size: 0.778em;
+    font-size: 0.9em;
 }
 
 .text-xs {
@@ -2238,6 +2243,10 @@ section.greyish {
     border-width: 10px;
     border-color: rgba(0,0,0,0);
     border-bottom-color: #fff;
+}
+
+#emoji {
+  font-size: 1.5em;
 }
 
 
@@ -3269,7 +3278,7 @@ footer .row-content.buffer {
     color: white;
 }
 
-.icon-comment-one:before {
+.icon-icon-comment-one:before {
     content: "\e02e";
     color: white;
 }
