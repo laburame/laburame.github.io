@@ -5,14 +5,16 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="Aplicación de Buqueda Laboral para Jovenes Profesionales y Pasantes en todo Latinoamérica!">
-        <meta name="keywords" content="trabajo, empleo, job, jovenes profesionales, pasantes, pasantía, pasantes argentina, pasantía argentina, empleo argentina, trabajo argentina, argentina job, laburame, labura">
+        <meta name="keywords" content="trabajo, empleos, job, jovenes profesionales, pasantes, tinder para trabajos, tinder for jobs, tinder para pasantias, tinder para trabajar, pasantía, pasantes argentina, pasantía argentina, empleo argentina, trabajo argentina, argentina job, laburame, labura">
         <meta name="author" content="Laburame">
         <meta name="robots" content="index,follow">
+		<meta name="theme-color" content="#04C4D9">
 		<style type="text/css">@-ms-viewport{width: device-width;}</style>
-		<title>Laburame - Encontrá Tu Trabajo en 60 Segundos</title>
+		<title>Laburame | App de Búsquedas Laborales </title>
 		<link rel="stylesheet" href="css/layers.min.css" media="screen">
-		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
+		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
 		<link rel="stylesheet" href="style.css" media="screen">
+		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -33,7 +35,7 @@
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
 		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">			
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">
 	</head>
 
 	<body class="page">
@@ -53,8 +55,8 @@
 				<div class="nav-inner row-content buffer-left buffer-right even clear-after">
 					<div id="brand">
 						<h1 class="reset">
-                            <a href="#">
-                                <img class="default-logo" src="img/logo.png" width="150" alt="Laburame">
+                            <a href="index.html">
+                                <img class="default-logo" src="img/logo.png" width="160" alt="Laburame">
                             </a>
                         </h1>
 					</div><!-- brand -->
@@ -62,7 +64,7 @@
 					<nav>
 						<ul class="reset" role="navigation">
 							<li class="menu-item">
-								<a href="#">Blog</a>
+								<a href="http://blog.labura.me">Blog</a>
 								<!--<ul class="sub-menu">
 									<li><a href="blog-4-columns-masonry.html">Four Columns Grid</a></li>
 									<li><a href="blog-list-sidebar.html">List Style with Sidebar</a></li>
@@ -71,7 +73,10 @@
 								</ul>-->
 							</li>
 							<li class="menu-item">
-								<a href="#">Ventajas</a>
+								<a href="empleador.html">Empleador</a>
+
+								<li class="menu-item">
+									<a href="empleador.html#gratis">Precio</a>
 								<!--<ul class="sub-menu">
 									<li><a href="search.html">Search Page</a></li>
 									<li><a href="no-results.html">Search Page - No Results</a></li>
@@ -82,102 +87,79 @@
 											<li><a href="#">Sub Sub Menu 01</a></li>
 											<li><a href="#">Sub Sub Menu 02</a></li>
 											<li><a href="#">Sub Sub Menu 03</a></li>
-										</ul>										
+										</ul>
 									</li>
 								</ul>-->
 							</li>
-							<li class="menu-item"><a href="prueba/contact.html">Contacto</a></li>
-                            <li class="menu-item button blue"><a href="#">Login Empresas</a></li>
+                            <li class="menu-item button blue"><a href="#" style="color:#FFF;">Login Empresas</a></li>
 						</ul>
 					</nav>
-				</div><!-- row-content -->	
-			</div><!-- row -->	
+				</div><!-- row-content -->
+			</div><!-- row -->
 		</header>
 
 		<main role="main">
 			<div id="intro-wrap">
-				<div id="intro" class="preload" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fade">					
-					<div class="intro-item" style="background-color: #6b3f4f;">
-						<div class="intro-mockup-wrapper">		
+				<div id="intro" class="preload" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fade">
+					<div class="intro-item">
+						<div class="intro-mockup-wrapper">
 							<div class="caption-mockup caption-right column six last-special">
-								<h2> Busca Trabajo <br>
-								en 40 <br>
-								Segundos </h2>
-								<p>Ágil, Eficiente y Seguro.
-									<br>Diseñado para encontrar tu primer empleo o pasantía.</p>
-								<a class="button white transparent" href="#atajos">Más</a>
+								<h2 style="text-shadow: 0 3px 1px rgba(0,0,0,.1);"> Te Buscamos Trabajo.
+								</h2>
+									<br> Recibí ofertas personalizadas en tu celular de las mejores empresas. </p>
+								<a style="text-shadow: 0 3px 1px rgba(0,0,0,.1);"class="button white transparent" href="#atajos">Más</a>
 							</div><!-- caption -->
 							<div class="intro-mockup intro-left column six">
-								<img src="img/login_side.png" alt="">
-							</div><!-- intro-mockup -->							
+								<img src="img/login_side.png" alt="" style="min-width:50%;" >
+							</div><!-- intro-mockup -->
 						</div><!-- intro-mockup-wrapper -->
-					</div>					
-					<div class="intro-item" style="background-color: #6b3f4f;"><!--#f5be55  amarillo-->
-						<div class="intro-mockup-wrapper">						
-							<div class="caption-mockup">
-								<h2>Diseño Moderno</h2>
-								<p>Porque la búsqueda laboral debe ser simple y amigable </p>
-							</div><!-- caption -->	
-							<!--<div class="photocaption">
-								<h4>Shot by <a href="http://dribbble.com/noptar">Mani</a></h4>
-							</div>--><!-- photocaption -->
-							<div class="intro-mockup">
-								<img src="img/progreso_frente.png" alt="">
-							</div><!-- intro-mockup -->	
-						</div><!-- intro-mockup-wrapper -->										
 					</div>
-					<div class="intro-item" style="background-color: #6b3f4f;">
-						<div class="intro-mockup-wrapper">
-							<div class="caption-mockup caption-left column six">
-								<h2>Postulate Sin <br> Importar Donde <br> Estés</h2>
-								<p>Enfocado en las plataformas móviles para que estes <br> conectado con tu futuro.
-							</div><!-- caption -->												
-							<div class="intro-mockup intro-right column six last">
-								<img src="img/chat_conversacion.png" alt="">
-							</div><!-- intro-mockup -->	
-						</div><!-- intro-mockup-wrapper -->
+
+
 					</div>
 				</div><!-- intro -->
 			</div><!-- intro-wrap -->
 
+
 			<div id="main">
 
-                <section class="row section call-to-action">
+                <section class="row section call-to-action" style ="background-color: #E8E8EE">
                     <div class="row-content buffer even animation">
-                        <p>¿Querés ser el Primero en Tenerla?</p>
-                        <a class="button red" href="http://eepurl.com/bz-seT" target="_blank">Clickeá Acá!</a>
+                        <p>¿Querés tenerla antes que todos?</p>
+                        <a class="button red" href="http://eepurl.com/bz-seT" target="_blank">Anotate</a>
                     </div>
                 </section>
 
-                <section class="row section text-light" id="atajos" style="background-color: #049DD9">
+                <section class="row section text-light" id="atajos" style="background-color: #FFFFFF">
+									<h1 id="magia"> La Magia de Laburame </h1>
 					<div class="row-content buffer even clear-after">
 						<div class="column four centertxt">
-							<div class="big-icon red"><i class="icon icon-flash"></i></div>
-							<div class="big-icon-text clear-after">
-								<h4>Deslizá</h4>
-								<p class="text-s">De manera ágil y fácil vas viendo las diferentes propuestas elegidas especialmente para vos.</p>
+							<div class="big-icon red"><i class="icon icon-user"></i></div>
+							<div class="big-icon-text clear-after" style="color:#7F7F7F">
+								<h4>1. Creá Tu Perfil</h4>
+								<p class="text-s">Te hacemos unas preguntas rápidas para empezar a buscarte trabajos. <i class="em em-wink"></i> </p>
 							</div>
 						</div>
 						<div class="column four centertxt">
-							<div class="big-icon red"><i class="icon icon-folder"></i></div>
-							<div class="big-icon-text clear-after">
-								<h4>Descubrí</h4>
-								<p class="text-s">Los puestos de trabajo que te representan, explicados de manera clara y concisa.</p>
-							</div>
-						</div>						
+							<div class="big-icon red"><i class="icon icon-checked"></i></div>
+							<div class="big-icon-text clear-after" style="color:#7F7F7F">
+								<h4>2. Elegí Trabajos</h4>
+								<p class="text-s">Ponele me gusta a los trabajos que te interesan. <i class="em em-heart_eyes"></i></p>
+											</div>
+						</div>
 						<div class="column four last centertxt">
-							<div class="big-icon red"><i class="icon icon-compass"></i></div>
-							<div class="big-icon-text clear-after">
-								<h4>Enterate</h4>
-								<p class="text-s">Sabé en que parte del proceso laboral te encontrás y como prepararte para lo que viene.</p>
+							<div class="big-icon red"><i class="icon icon-comment-two"></i></div>
+							<div class="big-icon-text clear-after" style="color:#7F7F7F">
+								<h4>3. Chatea</h4>
+								<p class="text-s"> Hablale a tu potencial empleador en segundos. <i class="em em---1"></i></p>
 								<!--<a class="button transparent white" href="#">Read more</a>-->
 							</div>
 						</div>
 					</div>
-				</section>	
+				</section>
 
 				<!--<section class="row section text-light" style="background-color:#04D9B2">
-					<div class="row-content buffer even clear-after">	
+					<div class="row-content buffer even clear-after">
 						<div class="column six">
 							<h2>Google Maps API</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -192,30 +174,36 @@
 								</figure>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</section>-->
 
 				<section class="row section text-light" style="background-color:#04C4D9">
 					<div class="row-content buffer even clear-after">
-						<div class="column six push-six last-special">
-							<h2>Un Día Dijimos Basta</h2>
-							<p> Dejá de Llenar Formularios Interminables y No Saber Qué Pasa con tu Postulación.</p>
-							<p> Obtené Trabajos a Tu Medida y Chatea con tu Empleador en Segundos.  </p>
-							<a class="button transparent white" href="#">Descubrilo</a>
-						</div>						
+						<div class="column six push-six last-special" style="text-align: center">
+							<h2 style="color:#FFF"> El Futuro de la Búsqueda Laboral.</h2>
+							<br>
+							<p style="color:#FFF; text-align:center;">
+							Si te cansaste de enviar tu CV y nunca saber qué pasó, esta es tu solución.
+							<br>
+							<br />
+							Te mandamos trabajos a tu celular para que no pierdas más tiempo buscando.
+							<br>
+							<br />
+							Simple.
+						 </p>  <br /> <br>
+							<a class="button transparent blue" href="#apps">Descubrilo</a>
+						</div>
 						<div class="side-mockup left-mockup animation">
-							<div class="slider iphone-slider black" data-autoplay="3000">
+							<div class="slider iphone-slider black">
 								<figure>
-									<div><img src="img/main-home.jpg" alt=""></div>
-									<div><img src="img/perfil-laburo.jpg" alt=""></div>
-									<div><img src="img/perfil-cia.jpg" alt=""></div>
-									<div><img src="img/perfil-personal.jpg" alt=""></div>
-									<div><img src="img/progreso-aplicacion.jpg" alt=""></div>
-									<div><img src="img/tap-screening.jpg" alt=""></div>
+									<div><img src="img/Main1.png" alt=""></div>
+									<div><img src="img/ChatWeb.jpg" alt=""></div>
+									<div><img src="img/Perfil.jpg" alt=""></div>
+
 								</figure>
 							</div>
-						</div>						
-					</div>	
+						</div>
+					</div>
 				</section>
 
 				<!--<section class="row section text-light" style="background-color:#0487D9;">
@@ -239,7 +227,7 @@
 										<img src="http://placehold.it/600x600/ddd/fff&text=Beetle%20image" alt="">
 									</figure>
 								</div>&lt;!&ndash; column &ndash;&gt;
-								<div class="column ten last">								
+								<div class="column ten last">
 									<p>"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."</p>
 									<div class="author">Craig Edwards</div>
 								</div>&lt;!&ndash; column &ndash;&gt;
@@ -250,7 +238,7 @@
 										<img src="http://placehold.it/600x600/ddd/fff&text=Beetle%20image" alt="">
 									</figure>
 								</div>&lt;!&ndash; column &ndash;&gt;
-								<div class="column ten last">									
+								<div class="column ten last">
 									<p>"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."</p>
 									<div class="author">Michael Dean</div>
 								</div>&lt;!&ndash; column &ndash;&gt;
@@ -259,14 +247,14 @@
 					</div>
 				</section>-->
 
-                <section class="row section text-light" style="background-color:#04D98B;">
+                <!--<section class="row section text-light" style="background-color:#04D98B;">
                     <div class="row-content buffer even clear-after">
                         <div class="section-title"><h3>Encontranos</h3></div>
                         <div class="column two">
                             <figure class="about-us">
                                 <figcaption>
                                     <a href="https://twitter.com/laburame" class="twitter-share meta-social"><i class="fa fa-twitter fa-lg me"></i></a>
-                                    <!--<a href="https://twitter.com/laburame" class="color-hover-twitter"><h4>Twitter</h4></a>-->
+                                    <a href="https://twitter.com/laburame" class="color-hover-twitter"><h4>Twitter</h4></a>
                                 </figcaption>
                             </figure>
                         </div>
@@ -274,15 +262,15 @@
                             <figure class="about-us">
                                 <figcaption>
                                     <a href="https://facebook.com/laburame" class="facebook-share meta-social"><i class="fa fa-facebook fa-lg me"></i></a>
-                                    <!--<a href="https://facebook.com/laburame" class="color-hover-facebook"><h4>Facebook</h4></a>-->
+                                    <!--<a href="https://facebook.com/laburame" class="color-hover-facebook"><h4>Facebook</h4></a>
                                 </figcaption>
                             </figure>
                         </div>
                         <div class="column two">
                             <figure class="about-us">
                                 <figcaption>
-                                    <a href="https://youtube.com/laburaMeApp" class="youtube-share meta-social"><i class="fa fa-youtube fa-lg me"></i></a>
-                                    <!--<a href="https://youtube.com/laburame" class="color-hover-youtube"><h4>Youtube</h4></a>-->
+                                    <a href="https://youtube.com/LaburaMeApp" class="youtube-share meta-social"><i class="fa fa-youtube fa-lg me"></i></a>
+                                    <!--<a href="https://youtube.com/laburame" class="color-hover-youtube"><h4>Youtube</h4></a>
                                 </figcaption>
                             </figure>
                         </div>
@@ -290,7 +278,7 @@
                             <figure class="about-us">
                                 <figcaption>
                                     <a href="whatsapp://send?text=Mirá%20esta%20app%21%20http%3A%2F%2Fwww.labura.me%2F" class="whatsapp-share meta-social"><i class="fa fa-whatsapp fa-lg me"></i></a>
-                                    <!--<a href="https://whatsapp.com/laburame" class="color-hover-whatsapp"><h4>Whatsapp</h4></a>-->
+                                    <!--<a href="https://whatsapp.com/laburame" class="color-hover-whatsapp"><h4>Whatsapp</h4></a>
                                 </figcaption>
                             </figure>
                         </div>
@@ -298,7 +286,7 @@
                             <figure class="about-us">
                                 <figcaption>
                                     <a href="https://instagram.com/laburame" class="instagram-share meta-social"><i class="fa fa-instagram fa-lg me"></i></a>
-                                    <!--<a href="https://instagram.com/laburame" class="color-hover-instagram"><h4>Instagram</h4></a>-->
+                                    <!--<a href="https://instagram.com/laburame" class="color-hover-instagram"><h4>Instagram</h4></a>
                                 </figcaption>
                             </figure>
                         </div>
@@ -311,15 +299,18 @@
                             </figure>
                         </div>
                     </div>
-                </section>
+                </section>-->
 
-                <section class="row section call-to-action">
+                <section class="row section call-to-action" id="apps">
                     <div class="row-content buffer even clear-after">
                         <div class="column eight appstore">
-                            <img src="img/apple_comingsoon.png" alt="Coming Soon To Play Store">
+													<a href="http://eepurl.com/bz-seT">
+                            <img src="img/apple_comingsoon.png" id="apple" alt="Coming Soon To Play Store">
                         </div>
                         <div class="column four appstore last">
-                            <img src="img/google_comingsoon.png" alt="Coming Soon To Play Store">
+														<a href="http://eepurl.com/bz-seT">
+                            <img src="img/google_comingsoon.png" id="google" alt="Coming Soon To Play Store">
+														<a href="http://eepurl.com/bz-seT">
                         </div>
                         <div class="column-content animation" id="callspace">
                             <p>Querés saber cuando sale?</p>
@@ -337,50 +328,47 @@
 				<div class="row-content buffer clear-after">
 					<section id="top-footer">
 						<div class="widget column three"><!-- la class="widget" è forse generata utomaticamente da wp -->
-							<h4>Menu</h4>
+							<h4 id="foot">Menu</h4>
 							<ul class="plain">
-								<li><a href="prueba/home-01.html">Inicio</a></li>
-								<li><a href="prueba/works-3-columns.html">Empresas</a></li>
-								<li><a href="prueba/blog-4-columns-masonry.html">Blog</a></li>
-								<li><a href="prueba/resume.html">Ventajas</a></li>
-								<li><a href="prueba/contact.html">Contacto</a></li>
+								<li><a id="foot" href="index.html">Inicio</a></li>
+								<li><a id="foot" href="http://blog.labura.me">Blog</a></li>
+								<li><a id="foot" href="empleador.html">Empleador</a></li>
+								<li><a id="foot" href="empleador.html#gratis">Precio</a></li>
+								<li><a id="foot" href="http://eepurl.com/bz-seT">Contacto</a></li>
 							</ul>
 						</div>
 						<div class="widget column three">
-							<h4>Archivos</h4>
+							<h4 id="foot">Archivos</h4>
 							<ul class="plain">
-								<!--<li><a href="#">March 2014</a></li>
-								<li><a href="#">April 2014</a></li>
-								<li><a href="#">May 2014</a></li>
-								<li><a href="#">June 2014</a></li>
-								<li><a href="#">July 2014</a></li>-->
+								<li><a id="foot" href="terms.html"> Términos y Condiciones </a></li>
 							</ul>
-						</div>								
+						</div>
 						<div class="widget column three">
-							<h4>Equipo</h4>
+							<h4 id="foot">Equipo</h4>
 							<p>Ignacio Siccardi.
-                            <br>Francisco de Monasterio.</p>
-						</div>				
+              			<br>Francisco de Monasterio.
+						<br>Guillermo Saracco.</p>
+						</div>
 						<div class="widget meta-social column three">
-							<h4>Seguinos</h4>
+							<h4 id="foot">Seguinos</h4>
 							<ul class="inline">
 								<li><a href="https://twitter.com/laburame" class="twitter-sharer border-box"><i class="fa fa-twitter fa-lg"></i></a></li>
 								<li><a href="https://facebook.com/laburame" class="facebook-sharer border-box"><i class="fa fa-facebook fa-lg"></i></a></li>
 								<li><a href="https://instagram.com/laburame" class="instagram-sharer border-box"><i class="fa fa-instagram fa-lg"></i></a></li>
-								<li><a href="https://linkedin.com/laburame" class="linkedin-sharer border-box"><i class="fa fa-linkedin fa-lg"></i></a></li>
+								<li><a href="https://linkedin.com/company/laburame" class="linkedin-sharer border-box"><i class="fa fa-linkedin fa-lg"></i></a></li>
                             </ul>
-						</div>														
+						</div>
 					</section><!-- top-footer -->
 					<section id="bottom-footer">
-						<p class="keep-left">&copy; 2015 <a href="http://labura.me/" alt="Laburame">Laburame</a>. Todos los Derechos Reservados.</p>
+						<p class="keep-left">&copy; 2016 <a href="http://labura.me/" alt="Laburame" id="foot">Laburame</a> Todos los Derechos Reservados.</p>
 						<p class="keep-right">Encontrando trabajo para estudiantes y jovenes profesionales.</p>
-					</section><!-- bottom-footer -->			
-				</div><!-- row-content -->	
-			</div><!-- row -->	
+					</section><!-- bottom-footer -->
+				</div><!-- row-content -->
+			</div><!-- row -->
 		</footer>
 
 		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>		
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/beetle.js"></script>
 
