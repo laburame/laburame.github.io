@@ -202,6 +202,11 @@ h1.works {
   text-align: center;
 }
 
+img.laptop {
+  min-width:100%;
+  padding-top:10%;
+}
+
 /*----------------------------------------------------------------
     Perfect Fourth (http://type-scale.com)
 ----------------------------------------------------------------*/
@@ -1428,6 +1433,17 @@ div.intro-item {
         margin-left: 3.8%;
         width: 48%;
     }
+
+    #intro .intro-mockup-wrapper {
+   margin-top: 3em;
+}
+
+  #google {
+   margin-top: 3em;
+   min-height: 88px;
+   max-width: 250px;
+   background: url("http://www.google.com") no-repeat;
+}
 
     .grid-items.shuffle .column {
         width: 100% !important;
@@ -3793,6 +3809,7 @@ footer .row-content.buffer {
     .about-us img {
         max-width: 20em;
         width: 100%;
+        padding-top: 5%;
     }
 
     .testimonial-img img {
@@ -4337,6 +4354,11 @@ footer .row-content.buffer {
     .iphone-slider .owl-item div {
         padding: 0 30px;
     }
+
+    img.laptop {
+      min-width: 0%;
+      padding-top: 0%;
+  }
 
     .iphone-mockup,
     .iphone-mockup.black,
