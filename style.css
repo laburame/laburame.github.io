@@ -159,6 +159,16 @@ img {
     display: block;
 }
 
+#premiored{
+  max-width: 100px;
+  max-height: 150px;
+}
+
+#premiogoogle{
+  max-width: 150px;
+  max-height: 100px;
+}
+
 .centertxt {
     text-align: center;
 }
@@ -215,6 +225,14 @@ img.laptop {
   min-width:100%;
   padding-top:10%;
 }
+
+#entrada {
+  padding-top: 20%;
+  text-align: center;
+  color: white;
+}
+
+
 
 /*----------------------------------------------------------------
     Perfect Fourth (http://type-scale.com)
@@ -404,6 +422,12 @@ header.transition {
     -ms-transition: background-color 0.3s ease;
     -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
+}
+
+#logos {
+  max-width: 150px;
+  float: right;
+
 }
 
 header.transparent {
@@ -627,6 +651,10 @@ nav ul.sub-menu > li:last-child > a {
     color: #FD685B;
 }
 
+#titulo {
+  color: #04C4D9;
+}
+
 div.verde{
   border: 1px #04C4D9 solid;
   border-radius: 10px;
@@ -639,10 +667,18 @@ div.verde{
   padding-right: 3%;
 }
 
+figcaption {
+  margin-top: 2%;
+}
+
 @media handheld, only screen and (max-width:48em) {
   div.verde {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #titulo {
+    font-size: 2em;
   }
 }
 
