@@ -107,7 +107,7 @@
     <a href="index.html"> <div class="navbar-wrapper space-between"> <img src="img/LaburameAzul.png" alt="Logo de Laburame" class="nav-logo" /> </a>
             <nav class="navigation flex-start">
                 </ul>
-              </span><span><a href="empleador.html">Empleador</a></span> <span><a href="https://medium.com/@laburame">Blog</a></span> <span id="acceso-empresas" class="teach-nav"><a href="https://itunes.apple.com/ar/app/laburame/id1138964184?ls=1&mt=8">Descargala</a></span> </nav>
+              </span><span><a href="empleador.html">Empleador</a></span> <span><a href="https://medium.com/@laburame">Blog</a></span> <span id="acceso-empresas" class="teach-nav"></nav>
         </div>
     </div>
 
@@ -221,20 +221,26 @@
         </section>
     </section>
     <script>
-        ! function() {
-            var a;
-            if (a = window.driftt = window.drift = window.driftt || [], !a.init) return a.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (a.invoked = !0, a.methods = ["identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"], a.factory = function(b) {
-                return function() {
-                    var c;
-                    return c = Array.prototype.slice.call(arguments), c.unshift(b), a.push(c), a
-                }
-            }, a.methods.forEach(function(b) {
-                a[b] = a.factory(b)
-            }), a.load = function(a) {
-                var b, c, d, e;
-                b = 3e5, e = Math.ceil(new Date / b) * b, d = document.createElement("script"), d.type = "text/javascript", d.async = !0, d.crossorigin = "anonymous", d.src = "https://js.driftt.com/include/" + e + "/" + a + ".js", c = document.getElementsByTagName("script")[0], c.parentNode.insertBefore(d, c)
-            })
-        }(), drift.SNIPPET_VERSION = "0.2.0", drift.load("p946mrpuaazx");
+    !function() {
+      var t;
+      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+      t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+      t.factory = function(e) {
+        return function() {
+          var n;
+          return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e, n, o, i;
+        e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+      });
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('c3fn4fmmwcux');
     </script>
     <script src="js/main.min.js"></script>
 </body>
